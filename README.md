@@ -1,8 +1,8 @@
-# React + Vite
+# BLog Website Made Using React for front end and Appwrite for backend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1st Project after learning React
 
-Currently, two official plugins are available:
+#### redux toolkit is used to manage state
+#### local storage is used to reduce appwrite api calls
+#### protected routes are configured to ensure security
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
