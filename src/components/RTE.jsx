@@ -1,11 +1,12 @@
 import React from 'react'
 import { Editor } from '@tinymce/tinymce-react'
+import conf from '../../conf'
 
 const RTE = ({value, onChange}) => {
   return (
     <div>
          <Editor
-            apiKey='jim98hnm3p1o44kmdzj3bea4fdcctzlq6roir2pfjq6zn76l'
+            apiKey={conf.tinyMceApiKey}
             initialValue='Enter Content Hre ...'
             value={value}
             onEditorChange={onChange}
